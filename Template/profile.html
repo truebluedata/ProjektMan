@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <title>Project Management</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="Stylesheet/bootstrap.css" rel="stylesheet">
+        <link href="Stylesheet/carousel.css" rel="stylesheet">
+
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+
+            <link href="Stylesheet/navbar-fixed-top.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+      <div class="navbar navbar-default navbar-fixed-top">
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Project Management</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            </div>
+            
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+    <div class="container">
+
+      <div class="row row-offcanvas row-offcanvas-right">
+        <div class="col-xs-12 col-sm-9">
+          <p class="pull-right visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+          </p>
+          <div class="jumbotron">
+            <h1>Welcome</h1>
+            <p>My rating (five stars)</p>
+            <p>My courses : Data Mining,  robotics</p>
+            <p>Link to CV</p>
+          </div>
+          <div class="row">
+            
+            <table id="report">
+        <tr>
+          <th>Mark</th>
+            <th>Project</th>
+            <th>Task</th>
+            <th>Time Left</th>
+            <th> Excuses</th>
+            <th></th>
+        </tr>
+        <tr>
+          <td><input type="checkbox" id="checkbox1" value="chk" onClick="EnableSubmit()" name="query_myTextEditBox"></td>
+            <td>data mining</td>
+            <td>Make UI </td>
+            <td>4 hours</td>
+            <td>
+            <button type="button">Make Excuse</button>
+            </td>
+            <td><div class="arrow"></div></td>
+        </tr>
+        <tr>
+
+        </tr>
+        <tr>
+          <td><input type="checkbox" id="checkbox1" value="chk" onClick="EnableSubmit()" name="query_myTextEditBox"></td>
+            <td>praveen11080@iiitd.ac.in</td>
+            <td>Praveen Kumar</td>
+            <td>Male</td>
+            <td>            <button type="button">Make Excuse</button></td>
+            <td><div class="arrow"></div></td>
+        </tr>
+        <tr>
+
+        </tr>
+        <tr>
+          <td><input type="checkbox" id="checkbox1" value="chk" onClick="EnableSubmit()" name="query_myTextEditBox"></td>
+            <td>sriram11113@iiitd.ac.in</td>
+            <td>Sriram Ramesh</td>
+            <td>Male</td>
+            <td>            <button type="button">Make Excuse</button></td>
+            <td><div class="arrow"></div></td>
+        </tr>
+        <tr>
+
+        </tr>
+        <tr>
+          <td><input type="checkbox" id="checkbox1" value="chk" onClick="EnableSubmit()" name="query_myTextEditBox"></td>
+            <td>xyz@gmail.com</td>
+            <td>Abhishek</td>
+            <td>male</td>
+            <td>            <button type="button">Make Excuse</button></td>
+            <td><div class="arrow"></div></td>
+        </tr>
+
+        <tr>
+          <td><input type="checkbox" id="checkbox1" value="chk" onClick="EnableSubmit()" name="query_myTextEditBox"></td>
+            <td>abc@gmail.com</td>
+            <td>Rishabh</td>
+            <td>male</td>
+            <td>            <button type="button">Make Excuse</button></td>
+            <td><div class="arrow"></div></td>
+        </tr>
+
+    </table>
+            
+            
+            
+          </div><!--/row-->
+        </div><!--/span-->
+
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+          <div class="well sidebar-nav">
+            <ul class="nav">
+              <li>Seminar</li>
+              <li class="active"><a href="http://iiitd.ac.in/research/seminar/nsit-iiitd-series">NSIT-IIITD Series</a></li>
+              <li><a href="http://iiitd.ac.in/research/seminar/2011">2011</a></li>
+              <li><a href="http://iiitd.ac.in/research/seminar/2012-13">2012-2013</a></li>
+              <li>Tech Reports</li>
+              <li><a href="https://repository.iiitd.edu.in/jspui/handle/123456789/4">Year-2013</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li>Research News</li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+            </ul>
+          </div><!--/.well -->
+        </div><!--/span-->
+      </div><!--/row-->
+
+      <hr>
+
+
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2013 PSP, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/holder.js"></script>
+        <script src="js/offcanvas.js"></script>
+  </body>
+</html>
